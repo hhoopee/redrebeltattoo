@@ -42,3 +42,19 @@ arrowLeft.addEventListener('click', () => {
         }
     })
 })
+
+const dropdowns = document.querySelectorAll('.dropdown');
+
+dropdowns.forEach((dropdown, index) => {
+    dropdown.addEventListener('click', () => {
+        if (dropdown.classList.contains('active')) {
+            dropdown.classList.remove('active');
+        } else {
+            dropdowns.forEach((dropdown) => {
+                dropdown.classList.remove('active');
+            })
+            dropdown.classList.add('active');
+        }
+
+    })
+})

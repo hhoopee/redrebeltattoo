@@ -383,3 +383,50 @@ a {
 .pagination-item.active {
   background-color: #4F4F4F;
 }
+
+.faq {
+  background-color: #FFF4F4;
+  padding: 50px 0;
+}
+
+.faq-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.dropdown {
+  position: relative;
+  padding: 40px;
+  background-color: #9D0404;
+  border-radius: 60px;
+  transition: height 0.5s ease;
+}
+
+.dropdown-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  margin-top: 20px;
+  display: none;
+}
+
+.dropdown.active {
+  height: 100%;
+}
+
+.dropdown-arrow {
+  transition: transform 0.5s ease;
+}
+
+.dropdown.active .dropdown-arrow{
+  transform: rotate(90deg);
+}
+
+.dropdown.active .dropdown-content {
+  display: block;
+}
