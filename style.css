@@ -306,3 +306,28 @@ a {
   display: flex;
   align-items: center;
 }
+
+.care {
+    margin-bottom: 100px;
+}
+
+.care-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.care-content__column {
+    max-width: 495px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.care-content__column p{
+    text-align: justify;
+}
+
+.care-content__title {
+    font-size: 28px;
+    font-weight: 400;
+}
