@@ -48,6 +48,10 @@ a {
   padding: 20px 0;
 }
 
+.logo {
+  max-width: 83px;
+}
+
 .nav {
   max-width: 579px;
   width: 100%;
@@ -429,4 +433,61 @@ a {
 
 .dropdown.active .dropdown-content {
   display: block;
+}
+
+.contact {
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 495px;
+  width: 100%;
+  align-items: center;
+}
+
+.contact-form__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+.form-input {
+  height: 66px;
+  border-radius: 30px;
+  padding: 22px 20px;
+  outline: none;
+  border: none;
+}
+
+.contact-button {
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  color: #FFF4F4;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__first-block {
+  display: flex;
+  flex-direction: column;
 }
