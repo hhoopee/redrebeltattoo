@@ -2,28 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import './const.css';
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  font-family: "Inter", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 18px;
-  color: #fff4f4;
-  max-width: 1920px;
-  background-color: #030000;
-  margin: 0 auto;
-}
+
 
 a {
   color: #fff4f4;
   text-decoration: none;
 }
+
+
 
 .header {
   background-image: url("./assets/img/bg.png");
@@ -34,13 +23,10 @@ a {
   background-position: center center;
   width: 100%;
   padding: 0 40px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
+
 
 .header-container {
   display: flex;
@@ -99,17 +85,11 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 7px;
+  gap: 20px;
 }
 
-.h1 {
-  font-size: 52px;
-  font-weight: 600;
-}
-
-.description {
+.promo-text {
   text-align: center;
-  padding: 13px;
 }
 
 .promo-button {
@@ -126,22 +106,6 @@ a {
   background-color: #b11818;
 }
 
-.promos {
-  margin-bottom: 100px;
-}
-
-.h2 {
-  font-size: 38px;
-  font-weight: 500;
-  margin-bottom: 50px;
-}
-
-.h3 {
-  font-size: 28px;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-
 .promos-cards {
   display: flex;
   justify-content: space-between;
@@ -156,10 +120,6 @@ a {
   margin-bottom: 10px;
 }
 
-.services {
-  margin-bottom: 100px;
-}
-
 .services-cards {
   display: flex;
   justify-content: space-between;
@@ -167,14 +127,6 @@ a {
 
 .services-card {
   max-width: 495px;
-}
-
-.services-text {
-  text-align: justify;
-}
-
-.styles {
-  margin-bottom: 100px;
 }
 
 .styles-card__title {
@@ -235,13 +187,9 @@ a {
   margin-bottom: 50px;
 }
 
-.about {
-  margin-bottom: 100px;
-}
-
 .about-text {
   max-width: 800px;
-  text-align: justify;
+  text-align: center;
 }
 
 .about-content {
@@ -268,8 +216,6 @@ a {
 
 .masters {
   background-color: #fff4f4;
-  padding: 50px;
-  margin-bottom: 100px;
   color: #030000;
 }
 
@@ -311,10 +257,6 @@ a {
   align-items: center;
 }
 
-.care {
-    margin-bottom: 100px;
-}
-
 .care-content {
     display: flex;
     justify-content: space-between;
@@ -334,10 +276,6 @@ a {
 .care-content__title {
     font-size: 28px;
     font-weight: 400;
-}
-
-.works {
-  margin-bottom: 100px;
 }
 
 .works-slider {
@@ -390,7 +328,6 @@ a {
 
 .faq {
   background-color: #FFF4F4;
-  padding: 50px 0;
 }
 
 .faq-content {
@@ -412,6 +349,10 @@ a {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+}
+
+.dropdown-title__title {
+  font-size: 30px;
 }
 
 .dropdown-content {
