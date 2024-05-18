@@ -1,0 +1,57 @@
+:root {
+    --black: #030000;
+    --white: #FFF4F4;
+    --red: #9D0404;
+    --hover: #B11818;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.container {
+    max-width: 1440px;
+    padding: 50px 40px;
+    margin: 0 auto;
+}
+
+.h1 {
+    font-size: 52px;
+    font-weight: 600;
+    /* margin-bottom: 20px; */
+}
+
+.h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.h3 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.text {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+.text.black {
+    color: var(--black);
+}
